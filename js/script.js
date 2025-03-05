@@ -99,7 +99,14 @@ for (let i = 0; i < cardBtns.length; i++) {
     div.style.marginBottom = "8px";
 
     // for button click time show
+    // const emoji = "\uD83D\uDE0A";
+    // const emoji = String.fromCodePoint(0x1f44f);
+    // const emoji = "👏";
+    const imageUrl = "./A5-Dev-Board/assets/emoji.png";
+
+
     div.innerHTML = `
+    
     <span>You have completed the task ${headingText} at ${timeString} </span>    
     `;
     history.appendChild(div);
